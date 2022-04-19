@@ -6,7 +6,7 @@ const app= express();
 });*/
 
 app.get("/about", (req, res) => {
-   res.send("About route");
+   res.send("About route 2");
 });
 
 app.listen(3000, () => console.log("Server is listening to port 3000"));
